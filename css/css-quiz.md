@@ -54,3 +54,59 @@ They all target the same nav element.
 ```
 
 #### Q5. When adding transparency styles, what is the difference between using the opacity property versus the background property with an rgba() value
+
+1) Chic type of declaration will take precedence ?
+
+>> important deciarations in author stylesheets
+
+2) with best practices in mind, which guideline
+
+>> use type selectors for generic or default styles. Use classes to select elements that are more specific or reusable.  
+
+3) when using media queries, media types
+
+>> print, screen speech
+
+4) when adding transparency styles, 
+
+>> opacity specifies the level of transparency of an element. Including its contents. 
+
+5) what is the line-height property primarily 
+
+>> to control the height of the space between two lines
+
+6) there are many properties that can be used to align elements and create page layouts
+
+>> position
+
+7) which of the following is not a valid color value ?
+
+>> color: 000000
+
+8) in the following example, according to cascading and specificity rules, what color will the link be ?
+
+>> yellow
+
+9) the values for the font-weight property can be keyword or numbers
+
+>> normal: border
+
+10) using the :nth-child pseudo class, what would be 
+
+>> li:nth-child(2n+3) {
+Margin: 0   5px;
+}
+
+11) what element(s) do the following selectors match to ?
+
+>> 1) an aliment with a class of “nav” 2) a nav element 3) an element with an id of “nav”
+ 
+
+13) using an attribute selector, how would you select an <a> element with a <title> attribute ?
+
+>> a[title] (…)
+
+
+14) css grid introduced a new length unit, fr, to create flexible Grid
+
+>> this first column will have a width of 50 ….. 300 …. 150
