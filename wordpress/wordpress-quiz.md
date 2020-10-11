@@ -224,4 +224,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 - [ ] schema
 - [ ] route
 - [ ] response
-- [ ] request
+- [x] request
