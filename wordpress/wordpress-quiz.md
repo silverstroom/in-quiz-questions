@@ -122,7 +122,7 @@
 #### Q18. What is a user role that is unique to WordPress Multisite?
 - [ ] MU Admin
 - [ ] Owner
-- [ ] Super Admin
+- [x] Super Admin
 - [ ] Multisite Master
 
 #### Q19. Within the editor, blocks are rendered as JavaScript. How are blocks rendered on the front end of a site?Within the editor, blocks are rendered as JavaScript. How are blocks rendered on the front end of a site?
@@ -293,18 +293,19 @@ if ( ! defined( 'ABSPATH' ) ) {
 - [ ] Template tags prefaced with the_ don't accept arguments. Template tags prefaced with get_the do accept arguments.
 
 ### Q42. How can you add a custom script that needs to run only on the contact page of a site? The slug of the page is contact.
-Link to the script directly from a template named page-contact.php using the get_header() template tag, like this: 
+
+- [ ] Link to the script directly from a template named page-contact.php using the get_header() template tag, like this: 
 get_header( '<script src="/my-script.js"></script>' );
 Use functions.php to conditionally load the script by hooking it to wp_enqueue_scripts(), like this: 
 add_action( 'wp_enqueue_scripts', 'load_scripts' );
 
-function load_scripts() { 
+- [ ] function load_scripts() { 
 if ( is_page( 'contact' ) ) {
 echo '<script src="/my-script.js"></script>';
 }
 }
 
-Use functions.php to conditionally load the script by hooking it to wp_enqueue_scripts(), like this: 
+- [ ] Use functions.php to conditionally load the script by hooking it to wp_enqueue_scripts(), like this: 
 add_action( 'wp_enqueue_scripts', 'load_scripts' );
 function load_scripts() { 
 if ( is_page( 'contact' ) ) {
@@ -313,7 +314,7 @@ wp_enqueue_script( 'script', get_template_directory_uri() . '/script.js' );
 }
 
 - [ ] Link to the script directly from a template named page-contact.php, like this: 
-- [ ] <head>
-- [ ] <script src="/my-script.js"></script>
-- [ ] </head>
+<head>
+<script src="/my-script.js"></script>
+</head>
 
